@@ -1,0 +1,9 @@
+#graph {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.bar:hover {
+  fill: darkgreen;
+}
