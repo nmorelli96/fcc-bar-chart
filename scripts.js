@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .attr("class", "bar")
       .attr("data-date", (d) => d[0])
       .attr("data-gdp", (d) => d[1])
-      .on("mouseover", function (d, i) {
+      .on("mousemove", function (d, i) {
         tooltip
           .html(
             new Date(i[0]).getFullYear() +
